@@ -35,7 +35,7 @@ export default class Converter extends Component {
                 {/* onChange vai disparar um evento, e o target vai pegar o valor do input e passar p minha var */}
                 <input type="text" onChange={(event)=>{this.setState({coinOneValue:event.target.value})}}></input>
                 <input type="button" value="Converter" onClick = {this.converter}></input>
-                <h2>Converter= {this.state.coinTwoValue}</h2>
+                <h2>Converted= {this.state.coinTwoValue}</h2>
             </div>
         )
     }
