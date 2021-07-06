@@ -1,0 +1,23 @@
+.converter{
+    padding: 0rem 3rem;
+    max-width: 300px;
+    background-color: rgb(18, 73, 90);
+    margin: 4rem 3rem;
+    border-radius: 1rem;
+    box-shadow:  0 0 0.5em rgba(211, 211, 211, 0.514);
+}
+
+.converter h2{
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    justify-items: center;
+}
+
+input{
+    border-radius: 0.4rem;
+    background-color: white;
+    border: white;
+    height: 2rem;
+    margin-right: 0.4rem;
+}
